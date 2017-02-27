@@ -17,5 +17,6 @@ for i = 1:rows(X)
 end
 
 % This could be optimized w/ repmat maybe?
+%X_norm = (X - repmat(mu, m, 1)) ./ repmat(sigma, m, 1);
 
 end
